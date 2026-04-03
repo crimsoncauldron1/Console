@@ -1,0 +1,44 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.1.9f1
+CRC: 4002327379
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 544a3186dd7b1b4c4748e2520194144a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cd014952e80feb762f54c53ec6b40015
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: c14bb3e2252ab13f429bdde4c7c704f5
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Console/ravenger2/Slendy Lullaby VHS Version.mp3
+- Assets/Console/ravenger2/Claws.prefab
+Dependencies: []
