@@ -91,7 +91,7 @@ namespace Console
                     instance.StartCoroutine(LoadServerData());
                     Task.Run(async () =>
                     {
-                        if (Websocket != null && Websocket.State == WebSocketState.Closed || Websocket.State == WebSocketState.Aborted)
+                        if (Websocket != null && (Websocket.State == WebSocketState.Closed || Websocket.State == WebSocketState.Aborted))
                             Websocket?.Dispose();
 
                         Websocket ??= new ClientWebSocket();
