@@ -5,7 +5,7 @@
     /// </summary>
     internal class PluginInfo
     {
-        public const string GUID = "com.goldentrophy.gorillatag.console";
+        public const string GUID = "com.frost.gorillatag.console";
         public const string Name = "Console";
         public const string Version = "3.0.7";
     }
