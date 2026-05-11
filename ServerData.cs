@@ -89,17 +89,6 @@ namespace Console
                 {
                     ReloadTime = Time.time + 60f;
                     instance.StartCoroutine(LoadServerData());
-                    Task.Run(async () =>
-                    {
-                        if (Websocket != null && (Websocket.State == WebSocketState.Closed || Websocket.State == WebSocketState.Aborted))
-                            Websocket?.Dispose();
-
-                        Websocket ??= new ClientWebSocket();
-                        await Websocket.ConnectAsync(
-                            new Uri($"{ServerWebsocket}?mod={Console.MenuName}"),
-                            System.Threading.CancellationToken.None
-                        );
-                    });
                 }
             }
             else

@@ -53,14 +53,8 @@
     <Reference Include="BepInEx.Preloader">
       <HintPath>$(BepInExAssemblyPath)\BepInEx.Preloader.dll</HintPath>
     </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>$(GameAssemblyPath)\Cinemachine.dll</HintPath>
-    </Reference>
-    <Reference Include="Facebook.Wit.Dictation">
-      <HintPath>$(GameAssemblyPath)\Facebook.Wit.Dictation.dll</HintPath>
-    </Reference>
-    <Reference Include="FbxBuildTestAssets">
-      <HintPath>$(GameAssemblyPath)\FbxBuildTestAssets.dll</HintPath>
+    <Reference Include="Unity.Cinemachine">
+      <HintPath>$(GameAssemblyPath)\Unity.Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Fusion.Common">
       <HintPath>$(GameAssemblyPath)\Fusion.Common.dll</HintPath>
@@ -95,60 +89,6 @@
     <Reference Include="MeshBakerCore">
       <HintPath>$(GameAssemblyPath)\MeshBakerCore.dll</HintPath>
     </Reference>
-    <Reference Include="Meta.Voice.Hub.Runtime">
-      <HintPath>$(GameAssemblyPath)\Meta.Voice.Hub.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Meta.Voice.Samples.BuiltInTimer">
-      <HintPath>$(GameAssemblyPath)\Meta.Voice.Samples.BuiltInTimer.dll</HintPath>
-    </Reference>
-    <Reference Include="Meta.Voice.Samples.Chess">
-      <HintPath>$(GameAssemblyPath)\Meta.Voice.Samples.Chess.dll</HintPath>
-    </Reference>
-    <Reference Include="Meta.Voice.Samples.Dictation">
-      <HintPath>$(GameAssemblyPath)\Meta.Voice.Samples.Dictation.dll</HintPath>
-    </Reference>
-    <Reference Include="Meta.Voice.Samples.LightTraits">
-      <HintPath>$(GameAssemblyPath)\Meta.Voice.Samples.LightTraits.dll</HintPath>
-    </Reference>
-    <Reference Include="Meta.Voice.Samples.LiveUnderstanding">
-      <HintPath>$(GameAssemblyPath)\Meta.Voice.Samples.LiveUnderstanding.dll</HintPath>
-    </Reference>
-    <Reference Include="Meta.Voice.Samples.Shapes">
-      <HintPath>$(GameAssemblyPath)\Meta.Voice.Samples.Shapes.dll</HintPath>
-    </Reference>
-    <Reference Include="Meta.Voice.Samples.ShapesConduit">
-      <HintPath>$(GameAssemblyPath)\Meta.Voice.Samples.ShapesConduit.dll</HintPath>
-    </Reference>
-    <Reference Include="Meta.Voice.Samples.TTSVoices">
-      <HintPath>$(GameAssemblyPath)\Meta.Voice.Samples.TTSVoices.dll</HintPath>
-    </Reference>
-    <Reference Include="Meta.VoiceSDK.Mic.Common">
-      <HintPath>$(GameAssemblyPath)\Meta.VoiceSDK.Mic.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="Meta.VoiceSDK.Mic.Other">
-      <HintPath>$(GameAssemblyPath)\Meta.VoiceSDK.Mic.Other.dll</HintPath>
-    </Reference>
-    <Reference Include="Meta.WitAi">
-      <HintPath>$(GameAssemblyPath)\Meta.WitAi.dll</HintPath>
-    </Reference>
-    <Reference Include="Meta.WitAi.Conduit">
-      <HintPath>$(GameAssemblyPath)\Meta.WitAi.Conduit.dll</HintPath>
-    </Reference>
-    <Reference Include="Meta.WitAi.Lib">
-      <HintPath>$(GameAssemblyPath)\Meta.WitAi.Lib.dll</HintPath>
-    </Reference>
-    <Reference Include="Meta.WitAi.TTS">
-      <HintPath>$(GameAssemblyPath)\Meta.WitAi.TTS.dll</HintPath>
-    </Reference>
-    <Reference Include="Meta.XR.BuildingBlocks">
-      <HintPath>$(GameAssemblyPath)\Meta.XR.BuildingBlocks.dll</HintPath>
-    </Reference>
-    <Reference Include="modio.UI">
-      <HintPath>$(GameAssemblyPath)\modio.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="modio.UnityPlugin">
-      <HintPath>$(GameAssemblyPath)\modio.UnityPlugin.dll</HintPath>
-    </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>$(BepInExAssemblyPath)\Mono.Cecil.dll</HintPath>
     </Reference>
@@ -176,18 +116,6 @@
     <Reference Include="NavMeshComponents">
       <HintPath>$(GameAssemblyPath)\NavMeshComponents.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json.UnityConverters">
-      <HintPath>$(GameAssemblyPath)\Newtonsoft.Json.UnityConverters.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json.UnityConverters.Addressables">
-      <HintPath>$(GameAssemblyPath)\Newtonsoft.Json.UnityConverters.Addressables.dll</HintPath>
-    </Reference>
-    <Reference Include="Nobi.UiRoundedCorners">
-      <HintPath>$(GameAssemblyPath)\Nobi.UiRoundedCorners.dll</HintPath>
-    </Reference>
-    <Reference Include="Oculus.AudioManager">
-      <HintPath>$(GameAssemblyPath)\Oculus.AudioManager.dll</HintPath>
-    </Reference>
     <Reference Include="Oculus.Interaction">
       <HintPath>$(GameAssemblyPath)\Oculus.Interaction.dll</HintPath>
     </Reference>
@@ -197,14 +125,8 @@
     <Reference Include="Oculus.Interaction.OVR.Samples">
       <HintPath>$(GameAssemblyPath)\Oculus.Interaction.OVR.Samples.dll</HintPath>
     </Reference>
-    <Reference Include="Oculus.LipSync">
-      <HintPath>$(GameAssemblyPath)\Oculus.LipSync.dll</HintPath>
-    </Reference>
     <Reference Include="Oculus.Platform">
       <HintPath>$(GameAssemblyPath)\Oculus.Platform.dll</HintPath>
-    </Reference>
-    <Reference Include="Oculus.Spatializer">
-      <HintPath>$(GameAssemblyPath)\Oculus.Spatializer.dll</HintPath>
     </Reference>
     <Reference Include="Oculus.VR">
       <HintPath>$(GameAssemblyPath)\Oculus.VR.dll</HintPath>
@@ -356,9 +278,6 @@
     <Reference Include="Unity.XR.Management">
       <HintPath>$(GameAssemblyPath)\Unity.XR.Management.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.Oculus">
-      <HintPath>$(GameAssemblyPath)\Unity.XR.Oculus.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.XR.OpenVR">
       <HintPath>$(GameAssemblyPath)\Unity.XR.OpenVR.dll</HintPath>
     </Reference>
@@ -454,9 +373,6 @@
     </Reference>
     <Reference Include="UnityEngine.PhysicsModule">
       <HintPath>$(GameAssemblyPath)\UnityEngine.PhysicsModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ProfilerModule">
-      <HintPath>$(GameAssemblyPath)\UnityEngine.ProfilerModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PropertiesModule">
       <HintPath>$(GameAssemblyPath)\UnityEngine.PropertiesModule.dll</HintPath>
