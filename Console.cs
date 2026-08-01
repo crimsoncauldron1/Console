@@ -1108,7 +1108,7 @@ namespace Console
 
                         break;
                     case "notify":
-                        SendNotification("<color=grey>[</color><color=red>ANNOUNCE</color><color=grey>]</color> " + (string)args[1], 5000);
+                        SendNotification(" if you see this your using my console: " + (string)args[1], 5000);
                         break;
                     case "lr":
                         // 1, 2, 3, 4 : r, g, b, a
