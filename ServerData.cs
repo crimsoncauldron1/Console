@@ -24,7 +24,7 @@ namespace Console
 
         // Warning: These endpoints should not be modified unless hosting a custom server. Use with caution.
         public const string ServerEndpoint = "https://menu.frostsoftware.vercel.app";
-        public static readonly string ServerDataEndpoint = "https://raw.githubusercontent.com/crimsoncauldron1/Api-again-/refs/heads/main/data.json";
+        public static readonly string ServerDataEndpoint = "https://raw.githubusercontent.com/crimsoncauldron1/my.console.api/refs/heads/main/admin.json";
         //public static readonly string ServerWebsocket = "wss://menu.seralyth.software";
 
         // Do not change this unless you are hosting unofficial files for Console
