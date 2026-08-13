@@ -78,8 +78,6 @@ To execute Console commands, you can use the `Console.ExecuteCommand()` method w
 - `notify [Notification]` - Sends a notification with their menu on the receiver's end with the text you provide.
 
 - `sleep [Duration ms]` - Sleeps on the targets main thread for duration.
-- `weather [Raining]` - Sets the weather of the user.
-- `time [Time]` - Sets whether it's raining or not for the client.
 - `rigposition [Enabled] [Body [Position] [Rotation]] [Left Hand [Position] [Rotation]] [Right Hand [Position] [Rotation]]` - Sets whether a rig is enabled or disabled.
 - `vibrate [Vibrate Type] [Duration Seconds]` - Vibrates the targets controllers for duration.
 
